@@ -1,8 +1,5 @@
 {
   "extends": "tslint:recommended",
-  "rulesDirectory": [
-    "codelyzer"
-  ],
   "rules": {
     "align": {
       "options": [
@@ -16,6 +13,16 @@
     "deprecation": {
       "severity": "warning"
     },
+    "component-class-suffix": false,
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": false,
     "eofline": true,
     "import-blacklist": [
       true,
@@ -27,6 +34,7 @@
         "spaces"
       ]
     },
+    "interface-name":false,
     "max-classes-per-file": false,
     "max-line-length": [
       true,
@@ -56,18 +64,15 @@
       true,
       "ignore-params"
     ],
+    "no-input-rename":false,
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
     "no-var-requires": false,
-    "object-literal-key-quotes": [
-      true,
-      "as-needed"
-    ],
-    "quotemark": [
-      true,
-      "single"
-    ],
+    "object-literal-key-quotes": false,
+    "object-literal-sort-keys":false,
+    "ordered-imports":false,
+    "quotemark": false,
     "semicolon": {
       "options": [
         "always"
@@ -82,10 +87,7 @@
         "named": "never"
       }
     },
-    "typedef": [
-      true,
-      "call-signature"
-    ],
+    "trailing-comma":"never",
     "typedef-whitespace": {
       "options": [
         {
@@ -121,9 +123,6 @@
         "check-typecast"
       ]
     },
-    "component-class-suffix": true,
-    "contextual-lifecycle": true,
-    "directive-class-suffix": true,
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,
@@ -135,18 +134,9 @@
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "directive-selector": [
-      true,
-      "attribute",
-      "app",
-      "camelCase"
-    ],
-    "component-selector": [
-      true,
-      "element",
-      "app",
-      "kebab-case"
-    ]
-  }
+    "use-pipe-transform-interface": true
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
 }

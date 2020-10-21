@@ -1,0 +1,19 @@
+<div>
+  <h3 class="text-center m-3">SADHA supports and appreciates our wonderful sponsors</h3>
+  <div class="row">
+    <div class="col">
+      <div class="card-deck">
+        <div class="card" *ngFor="let sponsor of sponsors;">
+          <a href="{{sponsor.url}}" target="_blank">
+            <img src="{{sponsor.image}}" height="350px" class="card-img-top" alt="{{sponsor.title}}">
+            <hr/>
+            <div class="card-body text-center">
+              <h5 class="card-title">{{sponsor.title}} <i class="ml-1 fas fa-external-link-alt"></i></h5>
+              <p class="card-text" *ngIf="sponsor.subTitle"><small class="text-muted">{{sponsor.subTitle}}</small></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

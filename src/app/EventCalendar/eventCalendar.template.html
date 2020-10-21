@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col">
+    Showing events starting today <strong>{{helpers.getFullMonthDate(startDate)}}</strong>
+    <span *ngIf="!!endDate"> through <strong>{{helpers.getFullMonthDate(endDate)}}</strong></span>
+  </div>
+</div>
+<div *ngIf="allowFiltering" class="row mt-2 mb-3 justify-content-center">
+  <div class="col-lg-auto col m-2 m-lg-0 text-center" *ngFor="let meetingType of meetingTypes">
+      <button type="button" class="btn btn-lg" [ngClass]="'btn-' + meetingType.style + (selectedType === meetingType.value? ' active': '')" (click)="filterMeetings(meetingType.value)">{{meetingType.label}}</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div *ngIf="showingMeetings.length > 0" class="card-deck">
+      <div *ngFor="let meeting of showingMeetings" class="col-lg-6 col-12">
+        <app-general-meeting *ngIf="meeting.type === 'general'" [data]="meeting"></app-general-meeting>
+        <app-ce-meeting *ngIf="meeting.type === 'ce'" [data]="meeting"></app-ce-meeting>
+        <app-project-meeting *ngIf="meeting.type === 'project'" [data]="meeting"></app-project-meeting>
+      </div>
+    </div>
+    <div *ngIf="showingMeetings.length === 0" class="alert alert-danger mt-2">
+      <div *ngIf="!!endDate">There are no events scheduled between <strong>{{helpers.getFullMonthDate(startDate)}}</strong> and <strong>{{helpers.getFullMonthDate(endDate)}}</strong></div>
+      <div *ngIf="!endDate">No events match to provided filter</div>
+    </div>
+  </div>
+</div>
