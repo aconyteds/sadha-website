@@ -46,3 +46,11 @@ export class ProjectModel implements Meeting {
     public organizers: Organizer[]
   ) {}
 }
+
+export interface Officer {
+  position: string;
+  name: string;
+  biography: string[];
+  image?: string;
+  email?: string;
+}

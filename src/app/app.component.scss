@@ -1,6 +1,11 @@
 .app-content {
   min-height: 100vh;
-
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  
+  .main-content{
+    background: #FAFAFA;
+  }
   .navbar{
     border: 1px solid #777;
     border-left-width: 0;

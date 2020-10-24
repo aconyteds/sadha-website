@@ -16,8 +16,10 @@ export class EventCalendarComponent implements OnInit {
   public endDate!: Date;
   @Input()
   public allowFiltering = true;
+  @Input()
+  public selectedType = "all";
   public meetingTypes = [{
-    label: "General Meeting",
+    label: "General Meetings",
     value: "general",
     style: "primary"
   }, {
@@ -25,7 +27,7 @@ export class EventCalendarComponent implements OnInit {
     value: "ce",
     style: "success"
   }, {
-    label: "Project",
+    label: "Projects",
     value: "project",
     style: "info"
   }, {
@@ -33,7 +35,6 @@ export class EventCalendarComponent implements OnInit {
     value: "all",
     style: "dark"
   }];
-  public selectedType = "all";
   public meetings: (MeetingModel | CEMeetingModel | ProjectModel)[] = [];
   public showingMeetings: (MeetingModel | CEMeetingModel | ProjectModel)[] = [];
   public helpers = new Helpers();
