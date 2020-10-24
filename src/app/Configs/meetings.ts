@@ -83,16 +83,16 @@ export const meetings = [{
 }, {
   date: "01/14/2021 07:00 PM",
   type: "ce",
-  title: "TBD",
+  title: "Take back your power in hygiene by being brilliant!",
   description: "",
-  speaker: "Jeniffer Pearce",
+  speaker: "Jennifer Pearce",
   location: ""
 }, {
-  date: "02/11/2021 07:00 PM",
+  date: "02/18/2021 07:00 PM",
   type: "ce",
-  title: "TBD",
+  title: "Marketing your Dental Hygiene Career",
   description: "",
-  speaker: "",
+  speaker: "Doug Perry",
   location: ""
 }, {
   date: "02/06/2021",
@@ -114,7 +114,7 @@ export const meetings = [{
   type: "ce",
   title: "TBD",
   description: "",
-  speaker: "",
+  speaker: "Dr. Reinecke",
   location: ""
 }, {
   date: "05/13/2021 07:00 PM",
