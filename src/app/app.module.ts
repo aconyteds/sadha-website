@@ -10,7 +10,6 @@ import { MembershipComponent } from "./Membership/membership.component";
 import { ContactComponent } from "./Contact/Contact.component";
 import { ContinuingEducationComponent } from "./ContinuingEducation/ce.component";
 import { LegislationComponent } from "./Legislation/legislation.component";
-import { LinksComponent } from "./Links/links.component";
 import { OfficersComponent } from "./Officers/officers.component";
 import { MeetingsComponent } from "./Meetings/meetings.component";
 import { ProjectComponent } from "./Projects/projects.component";
@@ -28,7 +27,6 @@ import { EventCalendarComponent } from "./EventCalendar/eventCalendar.component"
     ContactComponent,
     ContinuingEducationComponent,
     LegislationComponent,
-    LinksComponent,
     OfficersComponent,
     MeetingsComponent,
     ProjectComponent,

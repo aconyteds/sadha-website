@@ -11,7 +11,7 @@ export const meetings = [{
   description: "",
   location: "Go To Meeting Virtual Meeting"
 }, {
-  date: "11/10/2020 07:00 PM",
+  date: "11/12/2020 06:30 PM",
   type: "general",
   title: "SADHA General Meeting",
   description: "",
