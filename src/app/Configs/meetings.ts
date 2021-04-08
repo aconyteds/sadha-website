@@ -41,12 +41,6 @@ export const meetings = [{
   description: "",
   location: "Go To Meeting Virtual Meeting"
 }, {
-  date: "04/13/2021 07:00 PM",
-  type: "general",
-  title: "SADHA General Meeting",
-  description: "VOTING ON NEW OFFICERS",
-  location: "Go To Meeting Virtual Meeting"
-}, {
   date: "05/11/2021 07:00 PM",
   type: "general",
   title: "SADHA General Meeting",
