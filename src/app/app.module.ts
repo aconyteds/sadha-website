@@ -17,6 +17,13 @@ import { CEMeetingComponent } from "./EventCalendar/continuingEducation.componen
 import { GeneralMeetingComponent } from "./EventCalendar/generalMeeting.component";
 import { ProjectMeetingComponent } from "./EventCalendar/projectMeeting.component";
 import { EventCalendarComponent } from "./EventCalendar/eventCalendar.component";
+import { EventBannerComponent } from "./EventBanner/eventBanner.component";
+
+import { ContactUsDirective } from "./directives/contactUs.directive";
+import { ADHALinkDirective } from "./directives/adhaLink.directive";
+import { ADHAMembershipLinkDirective } from "./directives/adhaMembershipLink.directive";
+import { TDHALinkDirective } from "./directives/tdhaLink.directive";
+import { ADHALoginLinkDirective } from "./directives/adhaLogin.directive";
 
 @NgModule({
   declarations: [
@@ -33,7 +40,13 @@ import { EventCalendarComponent } from "./EventCalendar/eventCalendar.component"
     CEMeetingComponent,
     GeneralMeetingComponent,
     ProjectMeetingComponent,
-    EventCalendarComponent
+    EventCalendarComponent,
+    ContactUsDirective,
+    ADHALinkDirective,
+    ADHAMembershipLinkDirective,
+    TDHALinkDirective,
+    ADHALoginLinkDirective,
+    EventBannerComponent
   ],
   imports: [
     BrowserModule,
