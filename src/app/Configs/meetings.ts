@@ -110,11 +110,4 @@ export const meetings = [{
   description: "",
   speaker: "Dr. Reinecke",
   location: ""
-}, {
-  date: "05/13/2021 07:00 PM",
-  type: "ce",
-  title: "TBD",
-  description: "",
-  speaker: "",
-  location: ""
 }];
