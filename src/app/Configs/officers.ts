@@ -4,7 +4,7 @@ export const officers: Officer[] = [
   {
     position: "President",
     image: "./assets/officers/Andrea S. Wiseman, RDH.jpg",
-    name: "Andrea S. Wiseman",
+    name: "Andrea S. Wiseman, RDH",
     biography: [
       "Is the current President for San Antonio Dental Hygienists' Association. Andrea has been a member of the American Dental Hygienists' Association since 1995, as well as, Texas Dental Hygienists' Association and past president of the San Antonio Dental Hygienists' Association (2004) and Gulf Coast Dental Hygiene Society of Ft. Myers (1996-97), FL. She is a mentor to all oral healthcare providers and an advocate against oral diseases.",
       "Andrea Wiseman is a Preventive Consultant Specialist for Elevate Oral Care and brings over 30 years of experience in dentistry to her presentations which includes webinars and lunch-n-learns on the Current Prevention Measures."],
@@ -22,7 +22,7 @@ export const officers: Officer[] = [
   }, {
     position: "Secretary",
     image: "./assets/officers/Jessica Duncan, RDH, BSDH, MS.jpg",
-    name: "Jessica Duncan",
+    name: "Jessica Duncan, RDH, BSDH, MS",
     biography: [
       `Jessica Duncan is serving this 2020-2021 year as the SADHA Secretary. She is originally from Detroit, Michigan. Jessica served four years in the United States Marine Corps, then attended dental hygiene school in Memphis, Tennessee, where she finished her enlistment. `,
       `Jessica moved to Texas about five years ago, and has currently become more active in the SADHA local chapter. She has a master's degree in Health Studies with a focus in Dental Hygiene from Texas Woman’s University and currently works as a clinical instructor at Concorde Career College. Jessica has a beautiful 9-year-old daughter and will be getting married in November to a wonderful man.`],
@@ -39,7 +39,7 @@ export const officers: Officer[] = [
   }, {
     position: "Immediate Past President",
     image: "./assets/officers/Stacy_Limas3.png",
-    name: "Stacy Limas",
+    name: "Stacy Limas, RDH, BSDH, OM",
     biography: [
       `Stacy is our Immediate Past-President for 2020-2021 but has served in various board positions with SADHA to include being a Delegate for the past 3 years. Previously, she served as Student Delegate for District IX and has interned at ADHA. She received her Bachelor's degree in Dental Hygiene, minoring in Global Perspectives from Texas Woman's University. She is currently a dental hygiene instructor and loves sharing her passion for our profession with others.`,
       `She enjoys music and is sad to not be able to attend concerts this year. Stacy is still obsessed with Outlander, loves O.G. cookies from San Antonio’s That Cookie Tho bakery, and is eagerly awaiting Machine Gun Kelly’s new Pop Punk album.`
