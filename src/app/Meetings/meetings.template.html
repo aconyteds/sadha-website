@@ -1,7 +1,4 @@
 <div>
-  <app-event-banner></app-event-banner>
-  <p>The San Antonio Dental Hygienists’ Association Events will be held via virtual Go To Meeting platform.  The Monthly Event starts at 6:30 pm with Continuing Education to follow.  Come join in the fun, networking, camaraderie and service to our community!</p>
-  <p>Link to the Events and Continuing Education will be sent out to all SADHA Members and Non-Members via Constant Contact.</p>
   <h3 class="mb-3 mt-2">General Meetings</h3>
   <p >
     The SADDHA General Meetings are held via virtual Go To Meeting platform. Held every month.
@@ -11,7 +8,8 @@
     Come join in the fun, the networking, the camaraderie and the service to our community!
   </p>
   <p>
-    Link to the General Meeting will be sent out to all SADHA Members and Non-Members by your SADHA Secretary, <a appContactUs>{{secretary.name}}</a>
+    Link to the General Meeting will be sent out to all SADHA Members and Non-Members by your SADHA Secretary, <a href="mailto:{{secretary.email}}">{{secretary.name}}</a>
   </p>
+
   <app-event-calendar></app-event-calendar>
 </div>

@@ -2,13 +2,20 @@
   <h1 class="text-center">
     <strong>2020-2021 SADHA Officers</strong>
   </h1>
-  <section class="mt-3 card-deck">
-    <div *ngFor="let officer of officers; index as indx" class="col-lg-3 col-md-6 mt-2">
-      <div class="card">
-        <img class="card-img-top" [src]="officer.image" width="280" height="325" [alt]="officer.name" />
-        <div class="card-body text-center">
-          <h5 class="card-title">{{officer.name}}</h5>
-          <div class="card-text">{{officer.position}}</div>
+  <section *ngFor="let officer of officers; index as indx" class="mt-3">
+    <div class="row">
+      <div class="col">
+        <h3>{{officer.name}} - {{officer.position}}</h3>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div *ngIf="officer.image" class="col-auto" [ngClass]="indx%2 === 0 ? 'order-lg-12' : ''">
+        <img [src]="officer.image" width="280" height="325" [alt]="officer.name" />
+      </div>
+      <div class="col">
+        <p *ngFor="let paragraph of officer.biography">{{paragraph}}</p>
+        <div *ngIf="officer.email" class="text-info">
+          You can contact {{officer.name}} at <a href="mailto:{{officer.email}}">{{officer.email}}</a>.
         </div>
       </div>
     </div>
