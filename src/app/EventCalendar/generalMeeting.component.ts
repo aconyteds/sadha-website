@@ -7,14 +7,20 @@ import { Helpers } from "../utilities";
   template: `
     <div  class="card m-2">
       <div class="card-header bg-primary text-white">
-        <h3 class="text-center">{{helpers.getFullMonthDate(data.date)}}</h3>
+        <h3 class="text-center">{{helpers.getFullMonthDate(data.date)}} <span *ngIf="data.endDate"> - {{helpers.getFullMonthDate(data.endDate)}}</span></h3>
       </div>
       <div class="card-body">
         <p>{{data.title}}</p>
         <p *ngIf="data.description">{{data.description}}</p>
         <div class="row">
-          <div class="col">
-            <strong>Start: </strong> Meeting starts at {{helpers.getStandardTime(data.date)}}
+          <div class="col" *ngIf="helpers.getStandardTime(data.date) !== '0:00 A.M.'">
+            <strong>Start: </strong> {{helpers.getStandardTime(data.date)}}
+          </div>
+          <div class="col" *ngIf="helpers.getStandardTime(data.date) === '0:00 A.M.'">
+            <strong>Starts: </strong> {{helpers.getFullMonthDate(data.date)}}
+          </div>
+          <div class="col" *ngIf="data.endDate">
+            <strong>Ends: </strong> {{helpers.getFullMonthDate(data.endDate)}}
           </div>
         </div>
         <div class="row">
@@ -24,7 +30,7 @@ import { Helpers } from "../utilities";
         </div>
       </div>
       <div class="card-footer">
-        General Meeting
+        Event
       </div>
     </div>
   `,

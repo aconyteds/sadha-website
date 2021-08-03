@@ -19,7 +19,7 @@ export class EventCalendarComponent implements OnInit {
   @Input()
   public selectedType = "all";
   public meetingTypes = [{
-    label: "General Meetings",
+    label: "Events",
     value: "general",
     style: "primary"
   }, {
@@ -54,7 +54,8 @@ export class EventCalendarComponent implements OnInit {
               item.title,
               item.description,
               item.location,
-              item.organizers
+              item.organizers,
+              item.endDate ? new Date(item.endDate) : null
             ));
             break;
           case "ce":
@@ -75,7 +76,8 @@ export class EventCalendarComponent implements OnInit {
               item.type,
               item.title,
               item.description,
-              item.location
+              item.location,
+              item.endDate ? new Date(item.endDate) : null
             ));
         }
       }

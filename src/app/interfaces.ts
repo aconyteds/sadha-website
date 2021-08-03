@@ -3,9 +3,11 @@ export interface Organizer {
   email?: string;
 }
 
+export type MeetingType = "ce" | "project" | "general";
+
 export interface Meeting {
   date: Date;
-  type: string;
+  type: MeetingType;
   title: string;
   description?: string;
   location?: string;
@@ -17,17 +19,18 @@ export interface Meeting {
 export class MeetingModel implements Meeting {
   constructor(
     public date: Date,
-    public type: string,
+    public type: MeetingType,
     public title: string,
     public description: string,
-    public location: string
+    public location: string,
+    public endDate?: Date
   ) { }
 }
 
 export class CEMeetingModel implements Meeting {
   constructor(
     public date: Date,
-    public type: string,
+    public type: MeetingType,
     public title: string,
     public description: string,
     public location: string,
@@ -39,11 +42,12 @@ export class CEMeetingModel implements Meeting {
 export class ProjectModel implements Meeting {
   constructor(
     public date: Date,
-    public type: string,
+    public type: MeetingType,
     public title: string,
     public description: string,
     public location: string,
-    public organizers: Organizer[]
+    public organizers: Organizer[],
+    public endDate?: Date
   ) {}
 }
 

@@ -13,11 +13,14 @@ import { Helpers } from "../utilities";
         <p>{{data.title}}</p>
         <p *ngIf="data.description">{{data.description}}</p>
         <div class="row">
-          <div class="col">
-            <strong>Start: </strong> CE starts at {{helpers.getStandardTime(data.date)}}
+          <div class="col" *ngIf="helpers.getStandardTime(data.date) !== '0:00 A.M.'">
+            <strong>Start: </strong> {{helpers.getStandardTime(data.date)}}
+          </div>
+          <div class="col" *ngIf="helpers.getStandardTime(data.date) === '0:00 A.M.'">
+            <strong>Starts: </strong> {{helpers.getFullMonthDate(data.date)}}
           </div>
           <div class="col" *ngIf="data.endDate">
-            <strong>End: </strong> CE ends at {{helpers.getStandardTime(data.endDate)}} on {{helpers.getFullMonthDate(data.endDate)}}
+            <strong>Ends: </strong> {{helpers.getFullMonthDate(data.endDate)}}
           </div>
         </div>
         <div class="row" *ngIf="data.location">

@@ -1,113 +1,96 @@
-export const meetings = [{
-  date: "09/08/2020 07:00 PM",
+import { Meeting } from "../interfaces";
+
+export const meetings: Meeting[] = [{
+  date: new Date("08/26/2021 06:00 PM"),
   type: "general",
-  title: "SADHA General Meeting",
-  description: "",
-  location: "Go To Meeting Virtual Meeting"
+  title: "Social at Alamo Beer (Beer, Bacon, & Bingo)",
+  description: "Tour available at 6 PM, Bingo starts at 7 PM",
+  speaker: "",
+  location: "202 Lamar St, San Antonio, TX 78202"
 }, {
-  date: "10/13/2020 07:00 PM",
+  date: new Date("09/09/2021 06:30 PM"),
+  type: "ce",
+  title: "Topic to be Determined",
+  description: "",
+  speaker: "Magda De La Torre",
+  location: "Concorde Career College (Orientation Room), 4803 Northwest Loop 410 Unit 200"
+}, {
+  date: new Date("09/11/2021 07:00 PM"),
+  type: "ce",
+  title: "Virtual HIPAA & OSHA Training",
+  description: "Registration information coming soon.",
+  speaker: "Hosted by TDHA",
+  location: "Virtual"
+}, {
+  date: new Date("10/21/2021 06:30 PM"),
   type: "general",
-  title: "SADHA General Meeting",
+  title: "Student Night & Delegate Nominations",
   description: "",
-  location: "Go To Meeting Virtual Meeting"
+  speaker: "",
+  location: "TBD"
 }, {
-  date: "11/12/2020 06:30 PM",
+  date: new Date("11/11/2021 06:30 PM"),
+  type: "ce",
+  title: "Voting on Delegates & Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("11/05/2021 0:00 AM"),
+  endDate: new Date("11/06/2021 11:59 PM"),
+  type: "project",
+  title: "Texas Mission of Mercy",
+  description: "Registration Link (https://tmomvolunteer.org/event/80/)",
+  speaker: "",
+  location: "San Antonio"
+}, {
+  date: new Date("12/09/2021 06:30 PM"),
+  type: "ce",
+  title: "Installation of Delegates & Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("01/13/2022 06:30 PM"),
+  type: "ce",
+  title: "Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("02/03/2022 00:00 AM"),
+  endDate: new Date("02/06/2022 11:59 PM"),
   type: "general",
-  title: "SADHA General Meeting",
-  description: "",
-  location: "Go To Meeting Virtual Meeting"
+  title: "TDHA Annual Conference",
+  description: "Registration information coming soon.",
+  speaker: "TBD",
+  location: "Houston Marriott Westchase, 2900 Briarpark Dr, Houston, TX"
 }, {
-  date: "12/08/2020 07:00 PM",
+  date: new Date("02/10/2022 06:30 PM"),
+  type: "ce",
+  title: "Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("03/10/2022 06:30 PM"),
+  type: "ce",
+  title: "Nomination for Officers & Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("04/14/2022 06:30 PM"),
+  type: "ce",
+  title: "Voting on Officers & Continuing Education (Topic to be Determined)",
+  description: "",
+  speaker: "TBD",
+  location: "TBD"
+}, {
+  date: new Date("05/12/2022 06:30 PM"),
   type: "general",
-  title: "SADHA General Meeting",
+  title: "Officer Installation",
   description: "",
-  location: "Go To Meeting Virtual Meeting"
-}, {
-  date: "01/12/2021 07:00 PM",
-  type: "general",
-  title: "SADHA General Meeting",
-  description: "",
-  location: "Go To Meeting Virtual Meeting"
-}, {
-  date: "02/09/2021 07:00 PM",
-  type: "general",
-  title: "SADHA General Meeting",
-  description: "",
-  location: "Go To Meeting Virtual Meeting"
-}, {
-  date: "03/09/2021 07:00 PM",
-  type: "general",
-  title: "SADHA General Meeting",
-  description: "",
-  location: "Go To Meeting Virtual Meeting"
-}, {
-  date: "05/11/2021 07:00 PM",
-  type: "general",
-  title: "SADHA General Meeting",
-  description: "INSTALLATION OF NEW OFFICERS",
-  location: "Go To Meeting Virtual Meeting"
-}, {
-  date: "09/10/2020 07:00 PM",
-  type: "ce",
-  title: "Diode Use, Clinically Safe Practice Less Aerosol",
-  description: "",
-  speaker: "Valerie Dango-Ferro, RDH, BSDH",
-  location: ""
-}, {
-  date: "10/08/2020 07:00 PM",
-  type: "ce",
-  title: "Ambassador For The Dental Practice",
-  description: "",
-  speaker: "Nahed Azzam, RDH",
-  location: ""
-}, {
-  date: "11/12/2020 07:00 PM",
-  type: "ce",
-  title: "Dental Practicioners Role in Abuse and Neglect",
-  description: "",
-  speaker: "Amber Lovatos",
-  location: ""
-}, {
-  date: "12/10/2020 07:00 PM",
-  type: "ce",
-  title: "CBD",
-  description: "",
-  speaker: "Edie Shuman Gibson",
-  location: ""
-}, {
-  date: "01/14/2021 07:00 PM",
-  type: "ce",
-  title: "Take back your power in hygiene by being brilliant!",
-  description: "",
-  speaker: "Jennifer Pearce",
-  location: ""
-}, {
-  date: "02/18/2021 07:00 PM",
-  type: "ce",
-  title: "Marketing your Dental Hygiene Career",
-  description: "",
-  speaker: "Doug Perry",
-  location: ""
-}, {
-  date: "02/06/2021",
-  endDate: "02/09/2021",
-  type: "ce",
-  title: "Texas Dental Hygienists' Association - Texas Annual Session at Houston, Texas",
-  description: "",
-  speaker: "TDHA",
-  location: ""
-}, {
-  date: "03/11/2021 07:00 PM",
-  type: "ce",
-  title: "Childhood Adversities",
-  description: "",
-  speaker: "Dr. Janice Nguyen and Isabel Perez, RDH",
-  location: ""
-}, {
-  date: "04/08/2021 07:00 PM",
-  type: "ce",
-  title: "TBD",
-  description: "",
-  speaker: "Dr. Reinecke",
-  location: ""
+  speaker: "TBD",
+  location: "TBD"
 }];
