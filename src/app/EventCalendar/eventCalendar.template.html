@@ -11,9 +11,17 @@
 </div>
 <div *ngIf="showingMeetings.length > 0" class="card-deck">
   <div *ngFor="let meeting of showingMeetings" class="col-lg-6 col-12">
-    <app-general-meeting *ngIf="meeting.type === 'general'" [data]="meeting"></app-general-meeting>
-    <app-ce-meeting *ngIf="meeting.type === 'ce'" [data]="meeting"></app-ce-meeting>
-    <app-project-meeting *ngIf="meeting.type === 'project'" [data]="meeting"></app-project-meeting>
+    <a class="clickable-card" *ngIf="!!meeting.link" [href]="meeting.link" target="_blank" data-toggle="tooltip" title="Click here to see more information">
+      <app-general-meeting *ngIf="meeting.type === 'general'" [data]="meeting"></app-general-meeting>
+      <app-ce-meeting *ngIf="meeting.type === 'ce'" [data]="meeting"></app-ce-meeting>
+      <app-project-meeting *ngIf="meeting.type === 'project'" [data]="meeting"></app-project-meeting>
+      <i class="ml-1 fas fa-external-link-alt"></i>
+    </a>
+    <div *ngIf="!meeting.link">
+      <app-general-meeting *ngIf="meeting.type === 'general'" [data]="meeting"></app-general-meeting>
+      <app-ce-meeting *ngIf="meeting.type === 'ce'" [data]="meeting"></app-ce-meeting>
+      <app-project-meeting *ngIf="meeting.type === 'project'" [data]="meeting"></app-project-meeting>
+    </div>
   </div>
 </div>
 <div *ngIf="showingMeetings.length === 0" class="alert alert-danger mt-2">

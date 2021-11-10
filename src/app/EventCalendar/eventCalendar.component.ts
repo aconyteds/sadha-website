@@ -6,7 +6,24 @@ import {meetings as MeetingList} from "../Configs/meetings";
 @Component({
   selector: 'app-event-calendar',
   templateUrl: "./eventCalendar.template.html",
-  styles: [``]
+  styles: [`
+    .clickable-card {
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display:inline-block;
+    }
+
+    .clickable-card .fa-external-link-alt {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: white;
+    }
+  `]
 })
 
 export class EventCalendarComponent implements OnInit {
@@ -27,7 +44,7 @@ export class EventCalendarComponent implements OnInit {
     value: "ce",
     style: "success"
   }, {
-    label: "Projects",
+    label: "Service Projects",
     value: "project",
     style: "info"
   }, {
@@ -55,7 +72,10 @@ export class EventCalendarComponent implements OnInit {
               item.description,
               item.location,
               item.organizers,
-              item.endDate ? new Date(item.endDate) : null
+              item.endDate ? new Date(item.endDate) : null,
+              item.link,
+              item.imageUrl,
+              item.subtitle
             ));
             break;
           case "ce":
@@ -66,7 +86,10 @@ export class EventCalendarComponent implements OnInit {
               item.description,
               item.location,
               item.speaker,
-              item.endDate ? new Date(item.endDate) : null
+              item.endDate ? new Date(item.endDate) : null,
+              item.link,
+              item.imageUrl,
+              item.subtitle
             ));
             break;
           case "general":
@@ -77,7 +100,10 @@ export class EventCalendarComponent implements OnInit {
               item.title,
               item.description,
               item.location,
-              item.endDate ? new Date(item.endDate) : null
+              item.endDate ? new Date(item.endDate) : null,
+              item.link,
+              item.imageUrl,
+              item.subtitle
             ));
         }
       }

@@ -16,7 +16,7 @@ export class LegislationComponent {
   public delegates: string[] = [
     "Stacy Limas (SADHA President)",
     "Andrea Wiseman (SADHA Pesident-Elect)",
-    "Mercedes Mendoza (SADHA Trustee)",
+    "Jodie Hostetter  (SADHA Trustee)",
     "Sarah Roddy",
     "Sandra Mendoza",
     "Carmela Villareal",

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {officers} from "../Configs/officers";
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,6 @@ import { Component } from '@angular/core';
 
 export class HomeComponent {
   public endDate = new Date(new Date().setDate(new Date().getDate() + 30));
+  public secretary = officers.filter((officer) => officer.position === "Secretary")[0];
   public constructor() {}
 }

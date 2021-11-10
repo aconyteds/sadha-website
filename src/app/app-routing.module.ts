@@ -36,11 +36,11 @@ const routes: Routes = [{
     path: "legislation",
     pathMatch: "full",
     component: LegislationComponent
-  }, {
+  }, /* {
     path: "contact",
     pathMatch: "full",
     component: ContactComponent
-  }, {
+  }, */ {
     path: "projects",
     pathMatch: "full",
     component: ProjectComponent

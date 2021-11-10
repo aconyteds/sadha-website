@@ -1,3 +1,5 @@
+
+
 export interface Organizer {
   name: string;
   email?: string;
@@ -14,6 +16,9 @@ export interface Meeting {
   endDate?: Date;
   speaker?: string;
   organizers?: Organizer[];
+  link?: string;
+  imageUrl?: string;
+  subtitle?: string;
 }
 
 export class MeetingModel implements Meeting {
@@ -23,7 +28,10 @@ export class MeetingModel implements Meeting {
     public title: string,
     public description: string,
     public location: string,
-    public endDate?: Date
+    public endDate?: Date,
+    public link?: string,
+    public imageUrl?: string,
+    public subtitle?: string
   ) { }
 }
 
@@ -35,7 +43,10 @@ export class CEMeetingModel implements Meeting {
     public description: string,
     public location: string,
     public speaker: string,
-    public endDate?: Date
+    public endDate?: Date,
+    public link?: string,
+    public imageUrl?: string,
+    public subtitle?: string
   ) { }
 }
 
@@ -47,7 +58,10 @@ export class ProjectModel implements Meeting {
     public description: string,
     public location: string,
     public organizers: Organizer[],
-    public endDate?: Date
+    public endDate?: Date,
+    public link?: string,
+    public imageUrl?: string,
+    public subtitle?: string
   ) {}
 }
 
