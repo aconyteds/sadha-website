@@ -48,13 +48,13 @@ export const meetings: Meeting[] = [{
   speaker: "",
   location: "San Antonio"
 }, {
-  date: new Date("12/09/2021 06:30 PM"),
+  date: new Date("12/06/2021 06:30 PM"),
   type: "ce",
   title: "Installation of Delegates",
   subtitle: "Continuing Education: \"Hmmmm, I’ve seen that before\"",
   description: "This course will review common oral lesions, etiology, and treatment options. Attendees will also be provided additional content to include care review, diagnostics, and the treatment of surgical extractions.  ",
   speaker: "Dr. Scott Reinecke, DDS",
-  location: "TBD"
+  location: "UT Health San Antonio, 8210 Floyd Curl Drive, Kalkwarf room, 2nd floor"
 }, {
   date: new Date("01/13/2022 06:30 PM"),
   type: "ce",
@@ -104,4 +104,25 @@ export const meetings: Meeting[] = [{
   type: "project",
   title: "SADHA Serves: The San Antonio Food Bank",
   link: "https://m.signupgenius.com/#!/showSignUp/10c0f49aaa82aa5ff2-sadha"
+}, {
+  date: new Date("11/22/2021"),
+  endDate: new Date("11/27/2021"),
+  type: "project",
+  title: "Meals on Wheels",
+  description: "Looking for ways to make someone smile this Thanksgiving? Consider Volunteering with Meals on Wheels by delivering meals to the elderly and disabled members of our GREAT community.",
+  link: "https://www.mowsatx.org/deliverthanksgiving",
+  file: {
+    name: "Meals on Wheels 2021 info",
+    link: "./assets/Meals on Wheels 2021.docx"
+  }
+}, {
+  date: new Date("12/17/2021 01:00 PM"),
+  endDate: new Date("12/17/2021 04:00 PM"),
+  type: "ce",
+  title: "AAP Classification Made Easier",
+  speaker: "Melanie Taverna and Virginia Carillo",
+  location: "Zoom",
+  link: "https://uthscsa.co1.qualtrics.com/jfe/form/SV_0wVdr1kpOEkcCnc",
+  imageUrl: "./assets/OralPerspectives2021.png",
+  description: "All fees go to support Beta Sigma Chapter Scholarship Fund"
 }];

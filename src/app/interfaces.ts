@@ -5,6 +5,11 @@ export interface Organizer {
   email?: string;
 }
 
+export interface FileDetails {
+  name: string;
+  link: string;
+}
+
 export type MeetingType = "ce" | "project" | "general";
 
 export interface Meeting {
@@ -19,6 +24,7 @@ export interface Meeting {
   link?: string;
   imageUrl?: string;
   subtitle?: string;
+  file?: FileDetails;
 }
 
 export class MeetingModel implements Meeting {
@@ -61,7 +67,8 @@ export class ProjectModel implements Meeting {
     public endDate?: Date,
     public link?: string,
     public imageUrl?: string,
-    public subtitle?: string
+    public subtitle?: string,
+    public file?: FileDetails
   ) {}
 }
 

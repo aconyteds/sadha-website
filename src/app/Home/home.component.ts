@@ -11,5 +11,8 @@ import {officers} from "../Configs/officers";
 export class HomeComponent {
   public endDate = new Date(new Date().setDate(new Date().getDate() + 30));
   public secretary = officers.filter((officer) => officer.position === "Secretary")[0];
-  public constructor() {}
+  public showRDHStudyClubLink: boolean;
+  public constructor() {
+    this.showRDHStudyClubLink = new Date() < new Date('1/1/22');
+  }
 }

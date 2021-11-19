@@ -41,7 +41,14 @@ import { Helpers } from "../utilities";
         </ul>
       </div>
       <div class="card-footer">
-        Community Service
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            Community Service
+          </div>
+          <div class="col-auto" *ngIf="data.file">
+            <a [href]="data.file.link" target="_blank">{{data.file.name}}</a>
+          </div>
+        </div>
       </div>
     </div>
   `,

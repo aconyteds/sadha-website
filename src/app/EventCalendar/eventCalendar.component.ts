@@ -75,7 +75,8 @@ export class EventCalendarComponent implements OnInit {
               item.endDate ? new Date(item.endDate) : null,
               item.link,
               item.imageUrl,
-              item.subtitle
+              item.subtitle,
+              item.file
             ));
             break;
           case "ce":
