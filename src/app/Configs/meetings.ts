@@ -56,13 +56,6 @@ export const meetings: Meeting[] = [{
   speaker: "Dr. Scott Reinecke, DDS",
   location: "UT Health San Antonio, 8210 Floyd Curl Drive, Kalkwarf room, 2nd floor"
 }, {
-  date: new Date("01/13/2022 06:30 PM"),
-  type: "ce",
-  title: "Continuing Education (Topic to be Determined)",
-  description: "",
-  speaker: "TBD",
-  location: "TBD"
-}, {
   date: new Date("02/03/2022 00:00 AM"),
   endDate: new Date("02/06/2022 0:00 AM"),
   type: "general",
@@ -125,4 +118,15 @@ export const meetings: Meeting[] = [{
   link: "https://uthscsa.co1.qualtrics.com/jfe/form/SV_0wVdr1kpOEkcCnc",
   imageUrl: "./assets/OralPerspectives2021.png",
   description: "All fees go to support Beta Sigma Chapter Scholarship Fund"
+}, {
+  date: new Date("01/13/2022 06:30 PM"),
+  endDate: new Date("01/13/2022 08:00 PM"),
+  type: "ce",
+  title: "Con Sazon: Nutritional Counseling for the Latin Community",
+  subtitle: "(Click to Register - Zoom meeting link will be sent to your email THE DAY BEFORE THE EVENT)",
+  speaker: "Amber Lovatos, BSDH, RDH",
+  location: "Zoom",
+  link: "https://forms.gle/mazhEDYgBSz2ijnv7",
+  imageUrl: "./assets/2022_Con_Sazon.jpg",
+  description: "What is genetic and what is preventable? How do we provide culturally competent care and respect our patients' beliefs? This course explores how culture impacts nutrition and diet in the Hispanic and Latino/a/x community."
 }];
