@@ -61,15 +61,16 @@ export const meetings: Meeting[] = [{
   type: "general",
   title: "TDHA Annual Conference",
   description: "Registration information coming soon.",
-  speaker: "TBD",
+  speaker: "",
   location: "Houston Marriott Westchase, 2900 Briarpark Dr, Houston, TX"
 }, {
-  date: new Date("02/10/2022 06:30 PM"),
+  date: new Date("02/10/2022 07:00 PM"),
+  endDate: new Date("02/10/2022 08:30 PM"),
   type: "ce",
-  title: "Continuing Education (Topic to be Determined)",
-  description: "",
-  speaker: "TBD",
-  location: "TBD"
+  title: "Growing with Your Pediatric Patients: Stages of Care",
+  description: "We will begin first with a short meeting and words from our meeting sponsor Dental Partners.",
+  speaker: "An Chih Do RDH, MED, MAADH",
+  location: "Virtual"
 }, {
   date: new Date("03/10/2022 06:30 PM"),
   type: "ce",
