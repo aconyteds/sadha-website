@@ -130,4 +130,95 @@ export const meetings: Meeting[] = [{
   link: "https://forms.gle/mazhEDYgBSz2ijnv7",
   imageUrl: "./assets/2022_Con_Sazon.jpg",
   description: "What is genetic and what is preventable? How do we provide culturally competent care and respect our patients' beliefs? This course explores how culture impacts nutrition and diet in the Hispanic and Latino/a/x community."
-}];
+}, {
+  date: new Date("04/01/2022 10:00 AM"),
+  endDate: new Date("04/02/2022 05:00 PM"),
+  type: "ce",
+  title: "TDHA CE Roadshow",
+  subtitle: "Attendees will receive up to 12.5 CEU's during this CE Roadshow.",
+  speaker: "Multiple",
+  location: "TDHA CE Roadshow, Tyler Junior College, 1200 E 5th St, Tyler, TX 75701, USA Rogers Nursing & Health Sciences Center, Room 395",
+  link: "https://www.texasdha.org/event-details/tdha-ce-roadshow",
+  description: "By Popular Demand the CE Roadshow will be LIVE this year in Tyler, TX with an option for those not in the area to attend HYBRID!! Registration ends March 29, 2022. Register early seats are limited."
+}, {
+  type: "project",
+  date: new Date("09/24/2022 9:30 AM"),
+  endDate: new Date("09/24/2022 11:30 AM"),
+  title: "SADHA Serves: San Antonio Pets Alive",
+  link: "https://www.signupgenius.com/go/10c0f49aaa82aa5ff2-sadha3",
+  description: "Click here to signup today!",
+  location: "San Antonio Pets Alive, 4710 State Hwy 151, San Antonio, TX 78227"
+}, {
+  type: "general",
+  date: new Date("09/22/2022 7:00 PM"),
+  endDate: new Date("09/22/2022 9:00 PM"),
+  title: "TDHA Happy Virtual Happy Hour",
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSfDw6ISqQugwgfz7MFkUVQiFkZkUlUOmwMRWkzOHly3LJX_hg/viewform?edit_requested=true&fbclid=IwAR0LICnwk79cKtjM4inGuVCL3WOuPFBPIFYyQKEKyr7NoFq57SUuLBkQ2cM",
+  description: "Join TDHA via Zoom for a virtual happy hour!",
+  location: "Zoom (Virtual)"
+}, /*{
+  type: "ce",
+  date: new Date("10/08/2022 8:30 AM"),
+  endDate: new Date("10/08/2022 1:00 PM"),
+  title: "Multiple Speakers",
+},*/{
+  type: "project",
+  date: new Date("10/28/2022 8:00 AM"),
+  endDate: new Date("10/28/2022 4:00 PM"),
+  title: "Smiles of Hope, Day 1",
+  description: "In partnership with the San Antonio District Dental Society (SADDS), San Antonio Christian Dental Clinic is pleased to announce a community event to address the  oral health needs of underserved Bexar County community members.",
+  location: "San Antonio Christian Dental Clinic - 1 Haven for Hope Way; Bldg. 1, Ste. 400; San  Antonio TX, 78207. (GPS: 711 N. Frio)",
+  file: {
+    name: "Smiles of Hope 2022 info",
+    link: "./assets/2022 Smiles of Hope Flyer.Volunteers.pdf"
+  }
+}, {
+  type: "project",
+  date: new Date("10/29/2022 8:00 AM"),
+  endDate: new Date("10/29/2022 4:00 PM"),
+  title: "Smiles of Hope, Day 2",
+  description: "In partnership with the San Antonio District Dental Society (SADDS), San Antonio Christian Dental Clinic is pleased to announce a community event to address the  oral health needs of underserved Bexar County community members.",
+  location: "San Antonio Christian Dental Clinic - 1 Haven for Hope Way; Bldg. 1, Ste. 400; San  Antonio TX, 78207. (GPS: 711 N. Frio)",
+  file: {
+    name: "Smiles of Hope 2022 info",
+    link: "./assets/2022 Smiles of Hope Flyer.Volunteers.pdf"
+  }
+}, {
+  type: "general",
+  date: new Date("10/20/2022 7:00 PM"),
+  endDate: new Date("10/20/2022 9:00 PM"),
+  title: "SADHA Happy Hour",
+  description: "Join SADHA for the Dental Hygiene Month Social and Student Night!",
+  location: "TBD"
+}, {
+  type: "general",
+  date: new Date("11/09/2022 7:00 PM"),
+  endDate: new Date("11/09/2022 9:00 PM"),
+  title: "SADHA General Meeting",
+  description: "Join SADHA for the November General Meeting!",
+  location: "TBD"
+}, {
+  type: "project",
+  date: new Date("12/02/2022 10:00 AM"),
+  endDate: new Date("12/02/2022 4:00 PM"),
+  title: "Elf Louise Community Event",
+  description: "Join SADHA for Elf Louise for a gift wrapping event!",
+  location: "Elf Louise, Port San Antonio, 333 Morris Witt St., San Antonio, TX 78226",
+  link: "https://elflouise.org/wp/gift-wrapping/"
+}, {
+  type: "general",
+  date: new Date("01/12/2023 7:00 PM"),
+  endDate: new Date("01/12/2023 9:00 PM"),
+  title: "SADHA General Meeting",
+  speaker: "Kate Keck with doTerra Essential Oils",
+  description: "Join SADHA for the January General Meeting and CE!",
+  location: "TBD"
+}, {
+  date: new Date("02/03/2023 00:00 AM"),
+  endDate: new Date("02/05/2023 0:00 AM"),
+  type: "general",
+  title: "TDHA Annual Conference",
+  description: "Registration information coming soon.",
+  speaker: "",
+  location: "Embassy Suites by Hilton San Marcos Hotel Conference Center, 1001 E McCarty Ln, San Marcos, TX 78666"
+},];

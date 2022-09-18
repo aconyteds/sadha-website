@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { officers } from "../Configs/officers";
+import config from "../Configs/config";
 
 @Component({
   selector: 'app-continuing-education',
@@ -10,5 +11,6 @@ import { officers } from "../Configs/officers";
 
 export class ContinuingEducationComponent {
   public secretary = officers.filter((officer) => officer.position === "Secretary")[0];
-  public constructor() {}
+  public term: string = config.term;
+  public constructor() { }
 }

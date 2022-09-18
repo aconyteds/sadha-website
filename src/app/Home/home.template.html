@@ -1,18 +1,35 @@
 <h1>Home</h1>
 <div class="row">
   <div class="col">
-    <p>Welcome to the homepage for the San Antonio Dental Hygienists' Association (SADHA). Our organization serves the greater San Antonio area providing guidance related to our profession.</p>
+    <p>Welcome to the homepage for the San Antonio Dental Hygienists' Association (SADHA). Our organization serves the
+      greater San Antonio area providing guidance related to our profession.</p>
   </div>
 </div>
 <div class="row justify-content-center">
-  <div class="col-auto">
-    <img src="./assets/MercysTheme.jpg" width="100%" alt="Mercy's Presedential Theme">
+  <div class="col">
+    <div class="rainbow-box">
+
+      <img src="./assets/Kindness is Golden.png" width="100%" alt="">
+    </div>
+    <!-- <div class="h-100 row justify-content-center align-items-center">
+      <div class="col-auto quote-container">
+        <blockquote class="blockquote text-white">
+          <h1 class="mb-0">With all colors combined, the world shines.</h1>
+          <footer class="blockquote-footer text-white">Arefin Bashar Arif</footer>
+        </blockquote>
+        <h1 class="text-white">San Antonio Dental Hygienists' Association</h1>
+      </div>
+    </div> -->
   </div>
 </div>
 <div class="row">
   <div class="col">
     <h2>SADHA Mission Statement</h2>
-    <div class="alert alert-info">To improve the public's total health, the mission of the American Dental Hygienists' Association is to advance the art and science of dental hygiene by ensuring access to quality oral health care, increasing awareness of the cost-effective benefits of prevention, promoting the highest standards of dental hygiene education, licensure, practice and research, and representing and promoting the interests of dental hygienists.</div>
+    <div class="alert alert-info">To improve the public's total health, the mission of the American Dental Hygienists'
+      Association is to advance the art and science of dental hygiene by ensuring access to quality oral health care,
+      increasing awareness of the cost-effective benefits of prevention, promoting the highest standards of dental
+      hygiene education, licensure, practice and research, and representing and promoting the interests of dental
+      hygienists.</div>
   </div>
 </div>
 <section>
@@ -25,9 +42,12 @@
   <div class="row">
 
     <div class="col">
-      <p>Membership provides access to all meetings and opportunities to earn Continuing Education (CE) credits which SADHA hosts throughout the year. ADHA members may attend CEs at no charge, while guest attendance is $25 per event.</p>
+      <p>Membership provides access to all meetings and opportunities to earn Continuing Education (CE) credits which
+        SADHA hosts throughout the year. ADHA members may attend CEs at no charge, while guest attendance is $25 per
+        event.</p>
       <p>Please see the <a routerLink="/meetings">Calendar</a> for information about upcoming meetings.</p>
-      <p>We hope you'll join us at one of our events! Visit our <a routerLink="/membership">membership</a> page to find out how to become a member!</p>
+      <p>We hope you'll join us at one of our events! Visit our <a routerLink="/membership">membership</a> page to find
+        out how to become a member!</p>
     </div>
   </div>
 
@@ -36,15 +56,15 @@
   <h3>Upcoming Events</h3>
   <app-event-calendar [endDate]="endDate" [allowFiltering]="false"></app-event-calendar>
 </section>
-<hr/>
+<hr />
 <app-sponsor></app-sponsor>
-<hr/>
+<hr />
 <section *ngIf="showRDHStudyClubLink">
   <div class="row justify-content-center">
     <div class="col-auto border">
       <a href="https://courses.rdhacademy.com/" target="_blank">
         <img src="./assets/RDHStudyClub.png" alt="DH Study Club">
-        <hr/>
+        <hr />
         <div class="card-body text-center">
           <h5>RDH Study Club <i class="ml-1 fas fa-external-link-alt"></i></h5>
         </div>
@@ -53,5 +73,9 @@
   </div>
 
 </section>
-<hr/>
-<p class="text-muted"><strong>Questions?</strong> Send an email to <a href="mailto:{{secretary.email}}">{{secretary.email}}</a>.</p>
+<hr />
+<p class="text-muted"><strong>Questions?</strong> Send an email to <a
+    href="mailto:{{secretary.email}}">{{secretary.email}}</a>.</p>
+<p class="text-muted"><strong>Have an employment request?</strong> Fill out <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdyemefwwVuxlOJ1n2STi-nd8JYGPP6oGISgYy0oNBaTQoyPw/viewform?vc=0&c=0&w=1&flr=0"
+    target="_blank">this form<i _ngcontent-pxm-c22="" class="ml-1 fas fa-external-link-alt"></i></a>.</p>

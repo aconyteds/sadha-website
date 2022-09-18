@@ -1,11 +1,12 @@
 <div>
   <h1 class="text-center">
-    <strong>2021-2022 SADHA Officers</strong>
+    <strong>{{term}} SADHA Officers</strong>
   </h1>
   <div class="card-deck">
     <div *ngFor="let officer of officers; index as indx" class="col-md-4 h-100 mb-2">
       <div class="card">
-          <img *ngIf="officer.image" class="card-img-top" [src]="officer.image" width="214" height="320" [alt]="officer.name" />
+        <img *ngIf="officer.image" class="card-img-top" [src]="officer.image" width="214" height="320"
+          [alt]="officer.name" />
         <div class="card-body text-center">
           <h3 class="card-title">{{officer.name}}</h3>
           <h5>{{officer.position}}</h5>

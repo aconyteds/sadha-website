@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {officers} from "../Configs/officers";
+import { officers } from "../Configs/officers";
 
 @Component({
   selector: 'app-home',
   templateUrl: "./home.template.html",
-  styles: [`
-  `]
+  styleUrls: ['./home.styles.scss']
 })
 
 export class HomeComponent {

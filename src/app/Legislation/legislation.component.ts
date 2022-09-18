@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { config } from '../Configs/config';
 import { officers } from "../Configs/officers";
 
 @Component({
@@ -29,5 +30,6 @@ export class LegislationComponent {
     "2ndAlternate – Kelli",
     "3rd Alternate – Virginia Carrillo"
   ];
-  public constructor() {}
+  public term: string = config.term;
+  public constructor() { }
 }

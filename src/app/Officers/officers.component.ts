@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { officers } from "../Configs/officers";
 import { Officer } from "../interfaces";
+import config from '../Configs/config';
 
 @Component({
   selector: 'app-officers',
@@ -11,5 +12,6 @@ import { Officer } from "../interfaces";
 
 export class OfficersComponent {
   public officers: Officer[] = officers;
-  public constructor() {}
+  public term: string = config.term;
+  public constructor() { }
 }
