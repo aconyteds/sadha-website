@@ -221,4 +221,35 @@ export const meetings: Meeting[] = [{
   description: "Registration information coming soon.",
   speaker: "",
   location: "Embassy Suites by Hilton San Marcos Hotel Conference Center, 1001 E McCarty Ln, San Marcos, TX 78666"
-},];
+}, {
+  date: new Date("12/08/2022 7:00 PM"),
+  endDate: new Date("12/08/2022 8:30 PM"),
+  type: "ce",
+  title: "SADHA CE and Christmas Gift Exchange",
+  subtitle: "One hour CE on the topic C-diff: How does this affect the dental world?",
+  description: "Bring a $25 wrapped gift if you would like to participate in our white elephant immediately following CE. ",
+  link: "http://events.r20.constantcontact.com/register/event?llr=y6mxkr6ab&oeidk=a07ejijcu9q65ef1e15",
+  location: "7 to 7 Headquarters, 2211 NW Military HWY, San Antonio, TX",
+  speaker: "Leila H. Liberman, EdD, RDH"
+}, {
+  date: new Date("12/17/2022 11:00 AM"),
+  type: "project",
+  title: "SADHA Serves: Wreaths Across America",
+  description: "Join SADHA on National Wreaths Across America Day, December 17, 2022 at 11:00am until all wreaths are placed. We will be placing wreaths on the headstones of American Heroes. Feel free to bring your family and friends with you to National Wreaths Across America Day. This event can accomodate all who want to volunteer.",
+  link: "https://www.signupgenius.com/go/10c0f49aaa82aa5ff2-sadha4",
+  location: "Fort Sam Houston National Cemetery, 1520 Harry Wurzbach Rd, San Antonio, TX 78209"
+}, {
+  date: new Date("12/09/2022 12:00 PM"),
+  endDate: new Date("12/09/2022 1:00 PM"),
+  type: "ce",
+  title: "FOR EDUCATORS: Teaching Multi-Generation Students",
+  subtitle: "$25 fee. All fees go to support Beta Sigma Chapter Scholarship Fund",
+  description: "This is a live, interactive, online 1-hour Educator's Methodology Course using inquiry-based learning, and discussions about teaching strategies for multi-generational students. The purpose of this course is to enhance teaching skills for educators with this generation of students. This is an excellent course for CODA teaching methodology requirements.",
+  link: "https://uthscsa.co1.qualtrics.com/jfe/form/SV_d7ocfl3OJATeaCq",
+  speaker: "Beth Wueste, MAEd, C-TAGME, LSSBB",
+  location: "A Zoom link will be sent by email to all registrants.",
+  file: {
+    link: "./assets/Flyer Beta Sigma Fundraiser Dec. 2022.docx",
+    name: "Flyer Beta Sigma Fundraiser Dec. 2022"
+  }
+}];
