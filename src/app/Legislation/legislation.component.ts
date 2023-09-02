@@ -9,6 +9,11 @@ import { officers } from "../Configs/officers";
     .legislation-section-container > * {
       margin-top: 2rem;
     }
+
+    .logo {
+      max-width: 100%;
+      max-height: 100px;
+    }
   `]
 })
 

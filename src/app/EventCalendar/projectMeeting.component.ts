@@ -6,7 +6,7 @@ import { Helpers } from "../utilities";
   selector: 'app-project-meeting',
   template: `
     <div  class="card m-2">
-      <div class="card-header bg-info text-white">
+      <div class="card-header bg-success text-white">
         <h3 class="text-center">{{helpers.getFullMonthDate(data.date)}} <span *ngIf="data.endDate"> - {{helpers.getFullMonthDate(data.endDate)}}</span></h3>
       </div>
       <div class="card-body">

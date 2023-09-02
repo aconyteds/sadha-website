@@ -2,66 +2,79 @@
   <h1>Legislation</h1>
   <div class="legislation-section-container">
     <section class="row">
-      <div class="col">
-        <p>
+      <div class="col-auto">
+        <!-- <p>
           SADHA Legislative Priorities please contact:
-        </p>
-        <dl>
-          <dt>{{term}} Trustee</dt>
-          <dt>{{trustee.name}}</dt>
-          <dd>
-            <a href="mailto:{{trustee.email}}">{{trustee.email}}</a>
-          </dd>
-        </dl>
+        </p> -->
+        <div class="card">
+          <img *ngIf="trustee.image" class="card-img-top" [src]="trustee.image" height="350"
+            [alt]="trustee.name" />
+          <div class="card-body">
+            <dl>
+              <dt>{{term}} Trustee</dt>
+              <dt>{{trustee.name}}</dt>
+              <!-- <dd>
+                <a href="mailto:{{trustee.email}}">{{trustee.email}}</a>
+              </dd> -->
+            </dl>
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="row">
       <div class="col">
-        <h3>
-          To find out who your legislators are please click below:
-        </h3>
+        <h4>
+          To identify your legislators, kindly click the button below:
+        </h4>
         <p>
           <a href="http://www.fyi.legis.state.tx.us/Zip.aspx">
-            <img src="./assets/District Legislators.png" width="404" height="111" alt="legislators"
+            <img src="./assets/District Legislators.png" height="100" alt="legislators"
               longdesc="http://http://www.fyi.legis.state.tx.us/Zip.aspx">
           </a>
         </p>
       </div>
     </section>
-    <!-- <section>
-      <ul class="list-group">
-        <li class="list-group-item active">SADHA Delegates 2020-2021</li>
-        <li *ngFor="let delegate of delegates" class="list-group-item">{{delegate}}</li>
-      </ul>
-    </section> -->
+    <section class="row">
+      <div class="col">
+        <h3>Update on Local Anesthesia Bill</h3>
+        <img src="./assets/localAnesthesiaHB3824.webp" alt="Local Anesthesia" longdesc="HB3824 Local Anesthesia Logo">
+        <p>
+          Thank you Chairwoman Stephanie Klick, Senator Bryan Hughes, and Senator Cesar Blanco for supporting HB 3824.
+        </p>
+        <p>
+          <a href="https://capitol.texas.gov/tlodocs/88R/analysis/html/HB03824H.htm" target="_blank">Click here for a detailed analysis<i class="ml-1 fas fa-external-link-alt"></i></a>
+        </p>
+      </div>
+    </section>
     <section>
       <h3>Texas Dental Hygienists' Association</h3>
       <div>
-        <a href="https://www.texasdha.org/"><img src="./assets/adha-tdha-logo.png" width="357" height="101" alt="TDHA"
-            longdesc="http://texasdha.org/index.html"></a>
+        <a href="https://www.texasdha.org/"><img src="./assets/tdhaLogo.webp" class="logo" alt="TDHA"
+            longdesc="https://www.texasdha.org/"></a>
       </div>
       <dl>
         <dt>Texas Dental Hygienists’ Association {{term}} President</dt>
-        <dt>Annette Smith, RDH</dt>
+        <dt>Cathy Nobles</dt>
         <dd><a href="mailto:info@TexasDHA.com">info@TexasDHA.com</a></dd>
       </dl>
       <h5>TDHA Annual Session</h5>
-      <!-- <div>
-        <a href="http://texasdha.org/tdha-annual-session.html">TDHA Annual Session 2022<i class="ml-1 fas fa-external-link-alt"></i></a><a href="http://texasdha.org/AnnualSession/Annual_Session.aspx"></a>
-      </div> -->
+      <div>
+        <a href="https://www.texasdha.org/copy-of-upcoming-events">2024 Annual Conference<i class="ml-1 fas fa-external-link-alt"></i></a>
+      </div>
       <p>
-        <strong>February 3 - February 6, 2022</strong>
+        <strong>February 1 - February 4, 2024</strong>
       </p>
     </section>
     <section>
       <h3>American Dental Hygienists' Association</h3>
       <div>
-        <a href="https://www.adha.org/"><img src="./assets/adha-pict.jpg" width="122" height="108" alt="ADHA"
-            longdesc="http://www.adha.org/"></a>
+        <a href="https://www.adha.org/"><img src="./assets/ADHA_Logo.jpg" alt="ADHA" class="logo" longdesc="https://www.adha.org/"></a>
       </div>
       <dl>
         <dt>{{term}} President</dt>
-        <dt>Dawn Ann Dean, RDH, MSDH</dt>
+        <dt>Becky Smith, CRDH, EdD, FADHA</dt>
         <dd>
-          <a href="mailto:President@adha.net">President@adha.net</a>
+          <a href="mailto:president@adha.net">president@adha.net</a>
         </dd>
       </dl>
       <!-- <div>

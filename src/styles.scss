@@ -3,8 +3,10 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "fontawesome";
 @import "solid";
 @import "regular";
-@import "./theme/journal/_variables";
-@import "./theme/journal/_bootswatch";
+// @import "./theme/journal/_variables";
+// @import "./theme/journal/_bootswatch";
+@import "./theme/cosmo/_variables";
+@import "./theme/cosmo/_bootswatch";
 @import "bootstrap";
 
 html, body {

@@ -5,8 +5,10 @@
   </div>
 </div>
 <div *ngIf="allowFiltering" class="row mt-2 mb-3 justify-content-center">
-  <div class="col-lg-auto col m-2 m-lg-0 text-center" *ngFor="let meetingType of meetingTypes">
-      <button type="button" class="btn btn-lg" [ngClass]="'btn-' + meetingType.style + (selectedType === meetingType.value? ' active': '')" (click)="filterMeetings(meetingType.value)">{{meetingType.label}}</button>
+  <div class="col">
+    <div class="filter-grid">
+        <button *ngFor="let meetingType of meetingTypes" type="button" class="btn btn-lg" [ngClass]="'btn-' + meetingType.style + (selectedType === meetingType.value? ' active': '')" (click)="filterMeetings(meetingType.value)">{{meetingType.label}}</button>
+    </div>
   </div>
 </div>
 <div *ngIf="showingMeetings.length > 0" class="card-deck">

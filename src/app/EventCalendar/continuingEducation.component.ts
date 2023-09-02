@@ -6,7 +6,7 @@ import { Helpers } from "../utilities";
   selector: 'app-ce-meeting',
   template: `
     <div  class="card m-2">
-      <div class="card-header bg-success text-white">
+      <div class="card-header bg-primary text-white">
         <h3 class="text-center">{{helpers.getFullMonthDate(data.date)}}</h3>
       </div>
       <div class="card-body">

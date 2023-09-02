@@ -6,21 +6,13 @@
   </div>
 </div>
 <div class="row justify-content-center">
-  <div class="col">
-    <div class="rainbow-box">
+    <div class="col-lg-4 text-center">
+      <img src="./assets/ADHASAlogo.png" width="100%" alt="SADHA Logo">
+    </div>
+    <!-- <div class="rainbow-box">
 
       <img src="./assets/Kindness is Golden.png" width="100%" alt="">
-    </div>
-    <!-- <div class="h-100 row justify-content-center align-items-center">
-      <div class="col-auto quote-container">
-        <blockquote class="blockquote text-white">
-          <h1 class="mb-0">With all colors combined, the world shines.</h1>
-          <footer class="blockquote-footer text-white">Arefin Bashar Arif</footer>
-        </blockquote>
-        <h1 class="text-white">San Antonio Dental Hygienists' Association</h1>
-      </div>
     </div> -->
-  </div>
 </div>
 <div class="row">
   <div class="col">
@@ -33,29 +25,27 @@
   </div>
 </div>
 <section>
-  <h3>Membership benefits</h3>
-  <div class="row justify-content-center">
-    <div class="col-lg-4 text-center">
-      <img src="./assets/SADHALogo.jpg" width="100%" alt="SADHA Logo">
-    </div>
-  </div>
+  <h3>Upcoming Events</h3>
+  <app-event-calendar [endDate]="endDate" [allowFiltering]="false"></app-event-calendar>
+  <p>To view more events, visit our <a [routerLink]="'/meetings'">event page</a>.</p>
+</section>
+<section>
+  <app-officers></app-officers>
+  <!-- <app-membership></app-membership> -->
+  <!-- <h3>Membership benefits</h3>
+  
   <div class="row">
-
     <div class="col">
-      <p>Membership provides access to all meetings and opportunities to earn Continuing Education (CE) credits which
-        SADHA hosts throughout the year. ADHA members may attend CEs at no charge, while guest attendance is $25 per
-        event.</p>
+      <p>Becoming a member opens the door for you to participate in all our meetings and gain Continuing Education (CE) credits hosted by SADHA throughout the year. As a valued ADHA member, our regularly scheduled monthly CEs come at no additional cost to you. For those who aren't members but wish to join us, guest attendance is available for a modest fee of $35 per event. We'd be thrilled to have you onboard for an enriching experience of learning and networking.</p>
       <p>Please see the <a routerLink="/meetings">Calendar</a> for information about upcoming meetings.</p>
       <p>We hope you'll join us at one of our events! Visit our <a routerLink="/membership">membership</a> page to find
         out how to become a member!</p>
     </div>
-  </div>
+  </div> -->
 
 </section>
-<section>
-  <h3>Upcoming Events</h3>
-  <app-event-calendar [endDate]="endDate" [allowFiltering]="false"></app-event-calendar>
-</section>
+
+<app-membership></app-membership>
 <hr />
 <app-sponsor></app-sponsor>
 <hr />

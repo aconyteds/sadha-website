@@ -23,6 +23,12 @@ import {meetings as MeetingList} from "../Configs/meetings";
       right: 1rem;
       color: white;
     }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 1rem;
+    }
   `]
 })
 
@@ -38,15 +44,15 @@ export class EventCalendarComponent implements OnInit {
   public meetingTypes = [{
     label: "Events",
     value: "general",
-    style: "primary"
+    style: "info"
   }, {
     label: "Continuing Education",
     value: "ce",
-    style: "success"
+    style: "primary"
   }, {
     label: "Service Projects",
     value: "project",
-    style: "info"
+    style: "success"
   }, {
     label: "All",
     value: "all",
@@ -110,6 +116,7 @@ export class EventCalendarComponent implements OnInit {
       }
     });
     this.meetings = this.meetings.sort((a: MeetingModel, b: MeetingModel) => a.date > b.date ? 1 : -1);
+    console.log(this.meetings);
     this.filterMeetings(this.selectedType);
   }
 

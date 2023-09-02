@@ -210,9 +210,10 @@ export const meetings: Meeting[] = [{
   date: new Date("01/12/2023 7:00 PM"),
   endDate: new Date("01/12/2023 9:00 PM"),
   title: "SADHA General Meeting",
-  speaker: "Kate Keck with doTerra Essential Oils",
-  description: "Join SADHA for the January General Meeting and CE!",
-  location: "TBD"
+  speaker: "Kate Keck with doTERRA Essential Oils",
+  subtitle: "Join SADHA for the January General Meeting and CE!",
+  description: "The “Essential Oils in Dentistry” virtual CE will be one free credit hour and will be a scientific overview of the following - Limitations of Over The Counter options for pain, reduction of bleeding, bad breath, and decay prevention. What Essential Oils are and how to use them (especially for those at risk for periodontal disease or decay). Anxious patients and creating a welcoming office environment",
+  location: "Concorde Career College, 4803 NW Loop 410, Suite 200, San Antonio, TX 78229",
 }, {
   date: new Date("02/03/2023 00:00 AM"),
   endDate: new Date("02/05/2023 0:00 AM"),
@@ -252,4 +253,135 @@ export const meetings: Meeting[] = [{
     link: "./assets/Flyer Beta Sigma Fundraiser Dec. 2022.docx",
     name: "Flyer Beta Sigma Fundraiser Dec. 2022"
   }
+}, {
+  date: new Date("09/14/2023 06:30 PM"),
+  type: "general",
+  title: "SADHA General Meeting",
+  description: "Join SADHA for the September General Meeting with special guest Cathy Nobles, TDHA President, who will be providing an update on the Local Anesthesia Bill.",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+  
+}, {
+  date: new Date("09/14/2023 07:30 PM"),
+  type: "ce",
+  subtitle: "Cultural Competency",
+  title: "Sponsored by Elevate Oral Care",
+  description: "",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+  speaker: "Magda De La Torre, RDH, MPH",
+}, {
+  date: new Date("10/12/2023 06:30 PM"),
+  type: "general",
+  title: "Senior Student Night",
+  location: "More details coming soon!",
+}, {
+  date: new Date("10/14/2023 08:00 AM"),
+  type: "project",
+  title: "San Antonio Oral Cancer Foundation Walk",
+  description: "Join SADHA for the San Antonio Oral Cancer Foundation Walk! Click or Tap on this event to join the SADHA team - Lace Up!",
+  location: "UT Health San Antonio at the Pavillion, 4647 Medcical Dr. San Antonio, TX 78229",
+  link: "https://ocf.donordrive.com/index.cfm?fuseaction=donorDrive.team&teamID=8363",
+  imageUrl: "./assets/OCF_SA.jpg",
+}, {
+  date: new Date("09/09/2023 09:00 AM"),
+  type: "ce",
+  title: "TDHA Hosted CE",
+  subtitle: "Virtual HIPAA & OSHA Training",
+  description: "TDHA provided annual OSHA/HIPAA training. Click or Tap on this event to register. (Registration fees apply)",
+  link: "https://www.texasdha.org/event-details-registration/tdha-annual-osha-hipaa-training",
+  speaker: "Duane Tinker, AKA 'The Tooth Cop'"
+}, {
+  date: new Date("10/20/2023 00:00 PM"),
+  type: "project",
+  title: "Smiles of Hope",
+  description: "More details coming soon!",
+}, {
+  date: new Date("11/09/2023 06:30 PM"),
+  type: "general",
+  title: "Sponsored By Dental Partners",
+  subtitle: "SADHA General Meeting",
+  description: "Join SADHA for the November General Meeting!",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+}, {
+  date: new Date("11/09/2023 07:30 PM"),
+  type: "ce",
+  title: "Sponsored By Dental Partners",
+  speaker: "Virginia Carillo, RDH, M.Ed",
+}, {
+  date: new Date("11/18/2023 08:00 AM"),
+  endDate: new Date("11/18/2023 04:00 PM"),
+  type: "project",
+  title: "Free Dental Care Event",
+  subtitle: "GSAHDA Serving our Heroes/Serviendo Nuestros Heroes",
+  link: "https://www.gsahda.org/event-details/free-dental-care-event-serving-our-heroes-serviendo-nuestros-heroes-volunteer-today"
+}, {
+  date: new Date("12/02/2023 12:00 PM"),
+  type: "ce",
+  title: "4 hour CE event",
+  description: "More details coming soon!",
+}, {
+  date: new Date("12/14/2023 06:30 PM"),
+  type: "general",
+  title: "SADHA General Meeting",
+  description: "Join SADHA for the December General Meeting!",
+  location: "Zoom (Virtual)",
+}, {
+  date: new Date("12/14/2023 07:30 PM"),
+  type: "ce",
+  title: "Hear the World",
+  description: "Developing an awareness for hearing loss and mental health.",
+  speaker: "Amanda Zubricki, RDH, BS",
+  location: "Zoom (Virtual)",
+}, {
+  date: new Date("01/11/2024 06:30 PM"),
+  type: "general",
+  title: "Sponsored by Dental Partners",
+  subtitle: "SADHA General Meeting",
+  description: "Join SADHA for the January General Meeting!",
+  location: "Zoom (Virtual)",
+}, {
+  date: new Date("01/11/2024 07:30 PM"),
+  type: "ce",
+  title: "Sponsored by Dental Partners",
+  subtitle: "More than just mental health",
+  speaker: "Shawna Grier, RDH, BSDH",
+  location: "Zoom (Virtual)",
+}, {
+  date: new Date("02/08/2024 06:30 PM"),
+  type: "general",
+  title: "SADHA General Meeting",
+  description: "Join SADHA for the February General Meeting!",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+}, {
+  date: new Date("02/08/2024 07:30 PM"),
+  type: "ce",
+  title: "Prevention First",
+  speaker: "Andrea Wiseman, RDH",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+}, {
+  date: new Date("03/14/2024 06:30 PM"),
+  type: "general",
+  title: "SADHA Social",
+  description: "Join SADHA for the March Social! More information to come.",
+  location: "TBD",
+}, {
+  date: new Date("04/11/2024 06:30 PM"),
+  type: "general",
+  title: "Sponsored by Dental Partners and 3M",
+  subtitle: "SADHA General Meeting",
+  description: "Join SADHA for the April General Meeting!",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+}, {
+  date: new Date("04/11/2024 07:30 PM"),
+  type: "ce",
+  title: "Sponsored by Dental Partners and 3M",
+  subtitle: "Sherlock Hygiene: Mysteries of the Diabetic Patient",
+  speaker: "Staci Janous, RDH, MS",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
+}, {
+  date: new Date("05/09/2024 06:30 PM"),
+  type: "general",
+  title: "SADHA General Meeting, and officer installation",
+  description: "Join SADHA for the May General Meeting and Officer Installation!",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
 }];
+

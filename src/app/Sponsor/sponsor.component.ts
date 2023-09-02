@@ -21,7 +21,7 @@ export class SponsorComponent {
   }, {
     title: "Omega Seminars",
     subTitle: "",
-    image: "./assets/omega_seminars_logo.jpg",
+    image: "./assets/omega_seminars_logo2.jpg",
     url: "http://www.omegaseminars.com/"
   }];
   public constructor() {}
