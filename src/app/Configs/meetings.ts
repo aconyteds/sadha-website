@@ -265,9 +265,10 @@ export const meetings: Meeting[] = [{
   type: "ce",
   subtitle: "Cultural Competency",
   title: "Sponsored by Elevate Oral Care",
-  description: "",
+  description: "Click here to register",
   location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
   speaker: "Magda De La Torre, RDH, MPH",
+  link: "https://lp.constantcontactpages.com/ev/reg/qq6xdre"
 }, {
   date: new Date("10/12/2023 06:30 PM"),
   type: "general",
