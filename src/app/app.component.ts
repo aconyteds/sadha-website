@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ) {}
 
   public ngOnInit() {
-    this.router.events.subscribe((event: RouterEvent) => {
+    this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.activeRoute = event.urlAfterRedirects.replace("/", "");
       }
