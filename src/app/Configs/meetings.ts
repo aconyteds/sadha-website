@@ -264,7 +264,7 @@ export const meetings: Meeting[] = [{
   date: new Date("09/14/2023 07:30 PM"),
   type: "ce",
   subtitle: "Cultural Competency",
-  title: "Sponsored by Elevate Oral Care",
+  title: "Sponsored by Philips Sonicare",
   description: "Click here to register",
   location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
   speaker: "Magda De La Torre, RDH, MPH",
@@ -307,6 +307,9 @@ export const meetings: Meeting[] = [{
   type: "ce",
   title: "Sponsored By Dental Partners",
   speaker: "Virginia Carillo, RDH, M.Ed",
+  subtitle: "A Review on Staging and Grading",
+  link: "https://lp.constantcontactpages.com/ev/reg/9fun5s5",
+  location: "7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213",
 }, {
   date: new Date("11/18/2023 08:00 AM"),
   endDate: new Date("11/18/2023 04:00 PM"),
@@ -318,7 +321,9 @@ export const meetings: Meeting[] = [{
   date: new Date("12/02/2023 12:00 PM"),
   type: "ce",
   title: "4 hour CE event",
-  description: "More details coming soon!",
+  description: "We will be presenting two topics: 1) Work Quality and Productivity, presented by Naheed Azzam, RDH 2) A refresher on Oral Pathology, presented by Dr. Dejan Kohut, DDS, founder of RDH Study Club. Click here to register.",
+  imageUrl:"./assets/OralPathologyRefresher_2023.jpg",
+  link: "https://lp.constantcontactpages.com/ev/reg/9987rea?fbclid=IwAR3aXiEe2Fkz-1Q3Yp1t1axamY7-TAgucl-KzTvbraTUMpCZpvfWDAGsJrs_aem_AWNLe5EKJGWmQam9rf6qlhHCCH_EvqOY2RgcVxi-8o1AYWqWgR4d2MlsPUggb2edKFA"
 }, {
   date: new Date("12/14/2023 06:30 PM"),
   type: "general",

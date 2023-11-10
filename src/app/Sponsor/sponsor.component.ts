@@ -18,11 +18,6 @@ export class SponsorComponent {
     subTitle: "FOR ALL YOUR EMPLOYMENT NEEDS",
     image: "./assets/dentalPartners.jpg",
     url: "https://dentalpartnersllc.com/"
-  }, {
-    title: "Omega Seminars",
-    subTitle: "",
-    image: "./assets/omega_seminars_logo2.jpg",
-    url: "http://www.omegaseminars.com/"
   }];
   public constructor() {}
 }
