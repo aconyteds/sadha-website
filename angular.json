@@ -137,7 +137,6 @@
       }
     }
   },
-  "defaultProject": "sadha-website",
   "cli": {
     "analytics": false
   }
