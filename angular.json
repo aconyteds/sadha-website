@@ -78,18 +78,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "sadha-website:build"
+            "buildTarget": "sadha-website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "sadha-website:build:production"
+              "buildTarget": "sadha-website:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sadha-website:build"
+            "buildTarget": "sadha-website:build"
           }
         },
         "test": {

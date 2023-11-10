@@ -27,7 +27,7 @@ import { Helpers } from "../utilities";
           </div>
           <div class="col" *ngIf="data.endDate">
             <strong>Ends: </strong> {{helpers.getFullMonthDate(data.endDate)}}
-            <span *ngIf="helpers.getStandardTime(data.endDate) !== '0:00 A.M.'">@ {{helpers.getStandardTime(data.endDate)}}</span>
+            <span *ngIf="helpers.getStandardTime(data.endDate) !== '0:00 A.M.'">&#64; {{helpers.getStandardTime(data.endDate)}}</span>
           </div>
         </div>
         <div class="row" *ngIf="data.location">
