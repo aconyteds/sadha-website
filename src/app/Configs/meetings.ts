@@ -443,9 +443,30 @@ export const meetings: Meeting[] = [
   {
     date: new Date('02/08/2024 07:30 PM'),
     type: 'ce',
-    title: 'Prevention First',
+    title: 'Promoting Prevention',
     speaker: 'Andrea Wiseman, RDH',
     location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    imageUrl: './assets/February 24 CE Post.png',
+  },
+  {
+    date: new Date('02/10/2024 00:00 AM'),
+    imageUrl: './assets/SadhaServesOurCommunity_24.png',
+    type: 'project',
+    title: 'Join SADHA for a community service event!',
+    subtitle: 'SADHA Serves Our Community',
+    description:
+      "It's easy! Pick a Day/Time, take a walk around your neighborhood, pick up trash, e-mail a selfie when done!",
+    location: 'Your Neighborhood',
+  },
+  {
+    date: new Date('02/11/2024 00:00 AM'),
+    imageUrl: './assets/SadhaServesOurCommunity_24.png',
+    type: 'project',
+    title: 'Join SADHA for a community service event!',
+    subtitle: 'SADHA Serves Our Community',
+    description:
+      "It's easy! Pick a Day/Time, take a walk around your neighborhood, pick up trash, e-mail a selfie when done!",
+    location: 'Your Neighborhood',
   },
   {
     date: new Date('03/14/2024 06:30 PM'),
