@@ -469,11 +469,12 @@ export const meetings: Meeting[] = [
     location: 'Your Neighborhood',
   },
   {
-    date: new Date('03/14/2024 06:30 PM'),
+    date: new Date('03/14/2024'),
     type: 'general',
-    title: 'SADHA Social',
-    description: 'Join SADHA for the March Social! More information to come.',
-    location: 'TBD',
+    title: 'Spring Break',
+    description: 'No events in March. See you at our next meeting in April!',
+    imageUrl: './assets/DH_SpringBreak.webp',
+    location: 'Out of Office',
   },
   {
     date: new Date('04/11/2024 06:30 PM'),
