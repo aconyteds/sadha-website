@@ -479,15 +479,14 @@ export const meetings: Meeting[] = [
   {
     date: new Date('04/04/2024 06:00 PM'),
     endDate: new Date('04/04/2024 09:00 PM'),
-    imageUrl: './assets/DHintheDA_NewTechandAI.png',
+    imageUrl: './assets/AWNW_Dental_Sleep_Medicine.png',
     type: 'ce',
     title: 'Cloud Dentistry CE Opportunity for San Antonio',
-    subtitle:
-      'Dental Hygiene in the Digital Age: Navigating New Technology and Artificial Intelligence',
-    speaker: 'Maria Rodriguez, RDH',
+    subtitle: 'A Whole New World: Open Your Eyes to Dental Sleep Medicine',
+    speaker: 'An Chih Do, RDH, MEd, MAADH',
     location:
       'Paloma Blanca Mexican Cuisine 5800 Broadway, Suite #300, San Antonio',
-    description: `Cloud Dentistry hosts Maria 'Angy' Rodriguez for a Happy Hour and 1-hour CE. Space is limited and registration is required. Please click here for more information and to complete registration. We are excited to attend this presentation and hope to see you there as well! Please note: Your CE certificate will be provided through Cloud Dentistry's platform.`,
+    description: `Cloud Dentistry hosts An Chih Do for a Happy Hour and 1-hour CE. Space is limited and registration is required. Please click here for more information and to complete registration. We are excited to attend this presentation and hope to see you there as well! Please note: Your CE certificate will be provided through Cloud Dentistry's platform.`,
     link: 'https://www.clouddentistry.com/r/4wod',
   },
   {
