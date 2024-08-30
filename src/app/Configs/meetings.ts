@@ -509,11 +509,12 @@ export const meetings: Meeting[] = [
     link: 'https://lp.constantcontactpages.com/ev/reg/f5tu6qh',
   },
   {
-    date: new Date('05/09/2024 06:30 PM'),
+    date: new Date('05/23/2024 06:30 PM'),
     type: 'general',
-    title: 'SADHA General Meeting, and officer installation',
+    title: 'SADHA officer installation',
     description:
-      'Join SADHA for the May General Meeting and Officer Installation!',
+      'Join SADHA for the May Officer Installation! Feel free to bring a dish!',
     location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    imageUrl: './assets/Game Night Installation.png',
   },
 ];
