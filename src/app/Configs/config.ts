@@ -1,5 +1,5 @@
 export const config = {
-    term: "2023-2024",
+  term: '2024-2025',
 };
 
 export default { ...config };
