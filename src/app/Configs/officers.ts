@@ -21,12 +21,13 @@ export const officers: Officer[] = [
   },
   {
     position: 'Treasurer-elect',
-    image: './assets/officers/Jodie Headshot.JPG',
+    image: './assets/officers/Jodie_Headshot.PNG',
     name: 'Jodie Hostetter',
     biography: [],
   },
   {
     position: 'Secretary',
+    image: './assets/officers/NicoleLehar.PNG',
     name: 'Nicole Lehar',
     biography: [],
     email: 'sadhasecretary@gmail.com',
