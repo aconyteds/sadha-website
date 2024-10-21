@@ -563,4 +563,13 @@ export const meetings: Meeting[] = [
     link: 'https://www.sachristiandental.org/smiles-of-hope/?fbclid=IwY2xjawE_MotleHRuA2FlbQIxMQABHRu_LrAdkhly_shlgxDo3wzfSN9ryxkn--q4BFIViOqhvZelWu-iDtuMQA_aem_3XhnPk6Hskx-zhqh0PNx0A',
     imageUrl: './assets/SanAntonioChristianDentalClinic.png',
   },
+  {
+    date: new Date('11/09/2024 08:30 AM'),
+    type: 'project',
+    title: 'Take a Hike!',
+    description: 'Join SADHA for a hike at Eisenhower Park!',
+    location: 'Eisenhower Park, 19399 NW Military Hwy, San Antonio, TX 78257',
+    link: 'https://www.signupgenius.com/go/10C0F49AAA82AA5FF2-52312151-DAYHIKE',
+    imageUrl: './assets/Hiking Hygienist 2024.png',
+  },
 ];
