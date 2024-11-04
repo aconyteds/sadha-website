@@ -572,4 +572,16 @@ export const meetings: Meeting[] = [
     link: 'https://www.signupgenius.com/go/10C0F49AAA82AA5FF2-52312151-DAYHIKE',
     imageUrl: './assets/Hiking Hygienist 2024.png',
   },
+  {
+    date: new Date('12/07/2024 9:00 AM'),
+    endDate: new Date('12/07/2024 12:00 PM'),
+    type: 'ce',
+    title: 'Role of Lasers in Dental Hygiene',
+    speaker: 'Janessa Bock, RDH',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    imageUrl: './assets/12.7.24Event.png',
+    link: 'https://lp.constantcontactpages.com/ev/reg/tfngb38',
+    description:
+      'Join SADHA for a CE event on the Role of Lasers in Dental Hygiene presented by Janessa Bock, RDH. RSVP by December 6th. The 2 hour CE follows our monthly business meeting.',
+  },
 ];
