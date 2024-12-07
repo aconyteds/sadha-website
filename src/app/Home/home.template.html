@@ -24,6 +24,29 @@
       hygienists.</div>
   </div>
 </div>
+<section *ngIf="showRaffleContest">
+  <div class="row flex-column">
+    <div class="col">
+      <h2>Local Infiltration Anesthesia Certification Raffle</h2>
+    </div>
+    <div class="col">
+      <p>The San Antonio Dental Hygienists' Association is thrilled to announce our Raffle Contest! Enter for a chance to win a registration voucher for local infiltration anesthesia certification at UT Health San Antonio! Tickets cost $25 per entry, with multiple entries allowed. Raffle closes at 12AM on March 1st, 2025. ONE winner will be selected at random on March 2, 2025. Voucher expires 1 year from receipt. Winner is solely responsible for enrolling in, and successfully completing the course; must meet registration criteria. No cash value.</p>
+    </div>
+    <div class="col">
+      <a href="https://lp.constantcontactpages.com/ev/reg/uqmvwh3/lp/c529c718-1517-4e4b-9c00-740f6c6069b8" target="_blank" >
+        <div class="row flex-column justify-content-center align-items-center">
+          <div class="col-auto">
+            <img class="raffle-img" src="./assets/RaffleContest_2025.png" alt="Local Infiltration Anesthesia Certification">
+          </div>
+          <div class="col-auto">
+
+            Click here to enter!<i _ngcontent-pxm-c22="" class="ml-1 fas fa-external-link-alt"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 <section>
   <h3>Upcoming Events</h3>
   <app-event-calendar [endDate]="endDate" [allowFiltering]="false"></app-event-calendar>

@@ -5,3 +5,15 @@
     border-image-slice: 1;
     margin: 20px auto;
 }
+
+@media (min-width: 992px) {
+    .raffle-img {
+        max-height: 75vh;
+        width: auto;
+    }
+}
+
+.raffle-img {
+    max-height: 75vh;
+    width: auto;
+}

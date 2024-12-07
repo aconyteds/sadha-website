@@ -12,7 +12,9 @@ export class HomeComponent {
     (officer) => officer.position === 'Secretary'
   )[0];
   public showRDHStudyClubLink: boolean;
+  public showRaffleContest: boolean;
   public constructor() {
     this.showRDHStudyClubLink = new Date() < new Date('1/1/22');
+    this.showRaffleContest = new Date() < new Date('3/3/2025');
   }
 }
