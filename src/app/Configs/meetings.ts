@@ -540,8 +540,10 @@ export const meetings: Meeting[] = [
     endDate: new Date('03/08/2025 12:00 PM'),
     type: 'general',
     title: 'SADHA General Meeting',
-    description: 'Join SADHA for the March General Meeting!',
+    description: `Dr. Taraneh Maghsoodi-Zadeh presents "CBCT: New Tea in Dental Hygiene?". Here we'll learn the basics in radiographic interpretation utilizing panoramic and CBCT data to make informed decisions during periodontal evaluation. We will also explore the benefits and limitations of both technologies. RSVP by 11:59PM on March 7th. Registration begins at 8:45AM and the course follows our Association update.`,
     location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    link: 'https://lp.constantcontactpages.com/ev/reg/vwmc6n2',
+    imageUrl: './assets/03082025_CBCT_CE.png',
   },
   {
     date: new Date('05/31/2025 09:00 AM'),
