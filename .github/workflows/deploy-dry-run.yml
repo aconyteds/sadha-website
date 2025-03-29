@@ -3,7 +3,7 @@ name: Dry-Run Deploy to FTP
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   dry-run-deploy:
