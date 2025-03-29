@@ -549,9 +549,13 @@ export const meetings: Meeting[] = [
     date: new Date('05/31/2025 09:00 AM'),
     endDate: new Date('05/31/2025 12:00 PM'),
     type: 'general',
-    title: 'SADHA General Meeting',
-    description: 'Join SADHA for the May General Meeting!',
+    title: 'SADHA General Meeting & CE - Puberty, Pregnancy, and Menopause',
+    subtitle:
+      'Please RSVP by 11:59PM on May 30th. In-person registration begins at 8:45AM and the course follows our Association update.',
+    description: `Join us as we welcome Sue Scherer, RDH, BS to discuss "Puberty, Pregnancy, and Menopause: Oral Health Throughout the Lifespan of Women". We'll learn about oral health concerns/considerations during various hormonal changes as well as professional considerations for the female clinician.`,
     location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    imageUrl: './assets/Puberty-pregnancy-and-menopause.png',
+    link: 'https://lp.constantcontactpages.com/ev/reg/g9x58bq',
   },
   {
     date: new Date('10/25/2024 08:00 AM'),
