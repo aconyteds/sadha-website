@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
-          path: dist/sadha-website/
+          path: dist/sadha-website/**
 
   dry-run-deploy:
     runs-on: ubuntu-latest
