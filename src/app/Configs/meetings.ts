@@ -590,4 +590,63 @@ export const meetings: Meeting[] = [
     description:
       'Join SADHA for a CE event on the Role of Lasers in Dental Hygiene presented by Janessa Bock, RDH. RSVP by December 6th. The 2 hour CE follows our monthly business meeting.',
   },
+  {
+    date: new Date('09/20/2025 09:00 AM'),
+    endDate: new Date('09/20/2025 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting',
+    subtitle:
+      'Join us for a 2 HR CE with the amazing Dr. Gabriella Diaz! (CE follows 1 hour association meeting.)',
+    description: `Objectives include: Identify the systemic diseases, which have been linked directly to periodontal disease; Learn to use gingival cues to identify systemic disease in our patients; Understand how treatment of the periodontium affects the systemic health in our patients; Learn how to educate our patients on the connections between systemic health and gingival health. Sponsored by: Dental Partners, LLC and Elevate Oral Care`,
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    imageUrl: './assets/sep_2025_periodontalmanifestations.png',
+    link: 'https://lp.constantcontactpages.com/ev/reg/jzvt68w',
+  },
+  {
+    date: new Date('10/10/2025 08:00 AM'),
+    endDate: new Date('10/10/2025 04:00 PM'),
+    type: 'project',
+    title: '12th Annual Smiles of Hope Clinic (Hygiene Day)',
+    description:
+      'Volunteer for the 2025 12th Annual Smiles of Hope Clinic. Please register to provide FREE dental care to underserved adults in our community!',
+    location:
+      'San Antonio Christian Dental Clinic | 1 Haven for Hope Way | Bldg. 1, Ste. 400 | San Antonio TX, 78207',
+    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=oa5DadKXhkqJ7YdVW2SiQoI69Hj73-hHuEZEDFVZ1SRUMVBPME1XQ0hVMkYyQjVKTUZMUVFWVVk2Wi4u',
+    imageUrl: './assets/smiles_of_hope_2025.png',
+  },
+  {
+    date: new Date('12/06/2025 09:00 AM'),
+    endDate: new Date('12/06/2025 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting',
+    description: 'Join SADHA for the December General Meeting!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
+  {
+    date: new Date('02/26/2026 00:00 AM'),
+    endDate: new Date('03/01/2026 00:00 AM'),
+    type: 'general',
+    title: '2026 TDHA Annual Conference - Save the Date',
+    description:
+      "Mark your calendars for the 2026 Texas Dental Hygienists' Association Annual Conference in San Marcos, Texas! More information to come - check back for updates on registration, speakers, and programming details.",
+    location: 'San Marcos, TX',
+    link: 'https://www.texasdha.org/event-details-registration/annual-conference-save-the-date',
+    imageUrl: './assets/fierce_synergy.png',
+  },
+  {
+    date: new Date('03/14/2026 09:00 AM'),
+    endDate: new Date('03/14/2026 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting',
+    description: 'Join SADHA for the March General Meeting!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
+  {
+    date: new Date('05/30/2026 09:00 AM'),
+    endDate: new Date('05/30/2026 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting',
+    description: 'Join SADHA for the May General Meeting!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
 ];

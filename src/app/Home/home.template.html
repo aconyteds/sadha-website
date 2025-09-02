@@ -71,7 +71,7 @@
 <app-membership></app-membership>
 <hr />
 <app-sponsor></app-sponsor>
-<hr />
+
 <section *ngIf="showRDHStudyClubLink">
   <div class="row justify-content-center">
     <div class="col-auto border">
@@ -84,11 +84,23 @@
       </a>
     </div>
   </div>
-
 </section>
 <hr />
-<p class="text-muted"><strong>Questions?</strong> Send an email to <a
-    href="mailto:{{secretary.email}}">{{secretary.email}}</a>.</p>
+<div class="row justify-content-center">
+  <div class="col-auto">
+    <p class="text-muted"><strong>Have Questions? Are you Hiring?</strong> Send an email to <a
+        href="mailto:{{secretary.email}}">{{secretary.email}}</a>.</p>
+  </div>
+</div>
+<section>
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <a href="mailto:sadhaSecretary@gmail.com" target="_blank">
+        <img src="./assets/employment-request.png" width="100%" alt="Employment Request - Submit your employment requests to sadhaSecretary@gmail.com">
+      </a>
+    </div>
+  </div>
+</section>
 <!-- <p class="text-muted"><strong>Have an employment request?</strong> Fill out <a
     href="https://docs.google.com/forms/d/e/1FAIpQLSdyemefwwVuxlOJ1n2STi-nd8JYGPP6oGISgYy0oNBaTQoyPw/viewform?vc=0&c=0&w=1&flr=0"
     target="_blank">this form<i _ngcontent-pxm-c22="" class="ml-1 fas fa-external-link-alt"></i></a>.</p> -->
