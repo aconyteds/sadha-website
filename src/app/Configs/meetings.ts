@@ -618,9 +618,15 @@ export const meetings: Meeting[] = [
     date: new Date('12/06/2025 09:00 AM'),
     endDate: new Date('12/06/2025 12:00 PM'),
     type: 'general',
-    title: 'SADHA General Meeting',
-    description: 'Join SADHA for the December General Meeting!',
-    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    title: 'Leveraging Technology in Everyday Hygiene',
+    subtitle:
+      'Learn how to integrate technology to enhance patient care, boost staff confidence, and improve workflows.',
+    description:
+      'Join SADHA for a CE event with Dr. Akshay Thusu, DDS, MAGD, FICD, FPFA, Past President of San Antonio AGD and Expert in Dental Technology & patient care. Sponsored by align.',
+    speaker: 'Dr. Akshay Thusu, DDS, MAGD, FICD, FPFA',
+    location: '7 to 7 Dental & Orthodontics, 2211 NW Military HWY Suite 127B',
+    link: 'https://lp.constantcontactpages.com/ev/reg/eksu7b5?fbclid=IwY2xjawOIvq5leHRuA2FlbQIxMABicmlkETF5SVJqeVgxVDN4OFQwQlVPc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpzqgcpx6U1j1WDLetQkaBMa-TrDPJqkg72GMaIiRkK3p08St_rCnfZtkdos_aem_U_9oD-fdX6LS1oeSjPqaRg',
+    imageUrl: './assets/leveraging_technology_in_ED_hygiene.png',
   },
   {
     date: new Date('02/26/2026 00:00 AM'),
