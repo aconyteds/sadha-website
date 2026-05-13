@@ -648,11 +648,16 @@ export const meetings: Meeting[] = [
     location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
   },
   {
-    date: new Date('05/30/2026 09:00 AM'),
-    endDate: new Date('05/30/2026 12:00 PM'),
-    type: 'general',
-    title: 'SADHA General Meeting',
-    description: 'Join SADHA for the May General Meeting!',
-    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+    date: new Date('06/06/2026 09:00 AM'),
+    endDate: new Date('06/06/2026 12:00 PM'),
+    type: 'ce',
+    title:
+      'Considerations for the Patients Living with Neurologic Conditions: Isolating and Sometimes Unseen Disorders',
+    description:
+      'Join SADHA for a CE event with Dr. Nicholas Dennis, PT, DPT, NCS. Proudly sponsored by Andau Medical.',
+    speaker: 'Dr. Nicholas Dennis, PT, DPT, NCS',
+    location: '7 to 7 Dental & Orthodontics, 2211 NW Military HWY Suite 127B',
+    link: 'https://lp.constantcontactpages.com/ev/reg/8686gv4',
+    imageUrl: './assets/considerations_for_the_patients_2026.png',
   },
 ];
