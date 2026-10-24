@@ -660,4 +660,53 @@ export const meetings: Meeting[] = [
     link: 'https://lp.constantcontactpages.com/ev/reg/8686gv4',
     imageUrl: './assets/considerations_for_the_patients_2026.png',
   },
+  {
+    date: new Date('12/12/2026 09:00 AM'),
+    endDate: new Date('12/12/2026 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting - Save the Date',
+    description: 'Save the date for the December SADHA General Meeting!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
+  {
+    date: new Date('01/23/2027 09:00 AM'),
+    endDate: new Date('01/23/2027 12:00 PM'),
+    type: 'general',
+    title: 'Student Jeopardy - Save the Date',
+    description: 'Save the date for SADHA Student Jeopardy!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
+  {
+    date: new Date('02/25/2027 00:00 AM'),
+    endDate: new Date('02/28/2027 00:00 AM'),
+    type: 'general',
+    title: '2027 85th TDHA Annual Conference',
+    description:
+      "Join us for the 85th Texas Dental Hygienists' Association Annual Conference in San Marcos, Texas! Registration is now open.",
+    location: 'San Marcos, TX',
+    link: 'https://www.texasdha.org/event-details-registration/2027-85th-texas-dental-hygienists-association-conference',
+  },
+  {
+    date: new Date('03/20/2027 09:00 AM'),
+    endDate: new Date('03/20/2027 03:30 PM'),
+    type: 'ce',
+    title: 'iTOP: Individually Trained Oral Prophylaxis',
+    subtitle:
+      '$99 tuition · 6 CE credits · Limited to 40 attendees · Register by March 19th',
+    description:
+      'Reinvigorate your patient education with this hands-on, one-day introductory iTOP seminar on optimal biofilm management and coaching patients toward lifelong healthy habits. Includes a Hydrosonic, toothpaste, toothbrushes & interdental brushes ($300+ value). Sponsored by Curaden USA.',
+    speaker:
+      'Lancette VanGuilder, BS, RDH, PHEDH, CEAS, FADHA & Sarah Jackson, RDH, MS, FADHA',
+    location: '7 to 7 Dental & Orthodontics, 2211 NW Military HWY Suite 127B',
+    link: 'https://curadenacademy.com/en/events/7305-itop-introductory-san-antonio-tx-mar-20-2027',
+    imageUrl: './assets/ITOP_social_1080x1350_reg_live.png',
+  },
+  {
+    date: new Date('05/15/2027 09:00 AM'),
+    endDate: new Date('05/15/2027 12:00 PM'),
+    type: 'general',
+    title: 'SADHA General Meeting - Save the Date',
+    description: 'Save the date for the May SADHA General Meeting!',
+    location: '7 to 7 dental, 2211 NW Military Hwy, San Antonio, TX 78213',
+  },
 ];
