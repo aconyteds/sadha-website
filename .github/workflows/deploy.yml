@@ -29,7 +29,8 @@ jobs:
 
       # Uploads over SFTP (port 2222 per FatCow Server Information). Files are
       # added/replaced only; nothing on the server is deleted, so manually
-      # uploaded files like assets/officers are left alone.
+      # uploaded files like assets/officers are left alone. FatCow's SFTP
+      # server only offers the legacy ssh-rsa host key, so it is re-enabled.
       - name: Deploy over SFTP
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -37,7 +38,7 @@ jobs:
           LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           lftp -u "$FTP_USERNAME" --env-password "sftp://$FTP_SERVER:2222" -e "
-            set sftp:auto-confirm yes;
+            set sftp:connect-program 'ssh -a -x -o HostKeyAlgorithms=+ssh-rsa -o StrictHostKeyChecking=accept-new';
             set net:max-retries 2;
             pwd;
             mirror --reverse --verbose --parallel=4 dist/sadha-website/ ./;
