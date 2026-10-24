@@ -8,7 +8,7 @@ export const officers: Officer[] = [
     biography: [],
   },
   {
-    position: 'Immediate Past President',
+    position: 'President',
     image: './assets/officers/Mandy_Dennis_web.jpg',
     name: 'Mandy Dennis',
     biography: [],
