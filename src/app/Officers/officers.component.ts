@@ -7,6 +7,10 @@ import config from '../Configs/config';
   selector: 'app-officers',
   templateUrl: "./officers.template.html",
   styles: [`
+    .card-img-top {
+      object-fit: cover;
+      object-position: top;
+    }
   `]
 })
 
