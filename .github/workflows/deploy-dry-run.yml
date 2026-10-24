@@ -24,11 +24,21 @@ jobs:
       - name: Build project
         run: npm run build-prod
 
-      - name: Dry-run FTP deployment
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/sadha-website/
-          dry-run: true
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      # Connects over SFTP and lists what would be uploaded, without changing anything.
+      # FatCow's SFTP server only offers the legacy ssh-rsa host key, so it is re-enabled.
+      - name: Dry-run SFTP deployment
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -u "$FTP_USERNAME" --env-password "sftp://$FTP_SERVER:2222" -e "
+            set sftp:connect-program 'ssh -a -x -o HostKeyAlgorithms=+ssh-rsa -o StrictHostKeyChecking=accept-new';
+            set net:max-retries 2;
+            pwd;
+            cls -l index.html main.*.js;
+            mirror --reverse --dry-run --verbose dist/sadha-website/ ./;
+            bye"
